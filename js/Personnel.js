@@ -355,9 +355,9 @@
         }
     }
 
-    //setInterval(function () {
-    //    window.location.reload();
-    //}, 300000);
+    setInterval(function () {
+        window.location.reload();
+    }, 300000);
 
     function setItemInStorage(dataKey, data) {
         localStorage.setItem(dataKey, JSON.stringify(data));
